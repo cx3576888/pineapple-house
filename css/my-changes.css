@@ -1,0 +1,68 @@
+.main-nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#logo,
+#subtitle {
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgb(0, 0, 0);
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: white
+  }
+
+  25% {
+    color: cyan
+  }
+
+  50% {
+    color: gold
+  }
+
+  75% {
+    color: lime
+  }
+
+  100% {
+    color: white
+  }
+}
+
+#pg_home,
+#pg_about {
+  width: 100%;
+}
+
+#pg_about .article-entry {
+  text-align: center;
+}
+
+#pg_home .article-entry {
+  padding: 0;
+}
+
+#pg_home .container {
+  display: flex;
+}
+
+#pg_home .box1,
+#pg_home .box2 {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pg_home .box1 {
+  background-color: lightblue;
+  width: 25%;
+}
+
+#pg_home .box2 {
+  background-color: lightgreen;
+  width: 75%;
+}
